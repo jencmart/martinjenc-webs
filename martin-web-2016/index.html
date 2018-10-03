@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Nová webowá stránka</title>
+    <link rel="stylesheet" type = "text/css" href ="styles.css">
+</head>
+<body>
+<div class="container">
+    <header class="navigation">
+        
+        <div id="cf">
+            <a href="index.html"><img class="bottom" src="logo_hover.PNG" width="145" height="25" hspace="" vspace="" /></a>
+            <a href="index.html"><img class="top" src="logo.PNG"  width="145" height="25" hspace="" vspace=""/></a>
+        </div>
+        
+        <nav>
+            <ul class="nav_menu">
+                <li><a href="spring.html">spring</a></li>
+                <li><a href="summer.html">summer</a></li>
+                <li><a href="autmn.html">autumn</a></li>
+                <li><a href="winter.html>">winter</a></li>
+                <li><a href="springII.html">spring II</a></li>
+            </ul>
+            <ul class="sub_nav_menu">
+                <li><a href="prints.html">prints</a></li>
+                <li><a href="www.instagram.com/jencikm" target="_blank">instagram</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="mainBody">
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script>
+            $(document).ready(function() {
+                $.fn.nextOrFirst = function (selector) {
+                    var next = this.next(selector);
+                    return (next.length) ? next : this.prevAll(selector).last();
+                };
+                $("#cf2 img").click(function() {
+                    $(this)
+                    .removeClass('visible')
+                    .nextOrFirst()
+                    .addClass('visible');
+                });
+            });
+        </script>
+        <div id="cf2" class="shadow">
+            <img class="visible" src="ballerina/1.JPG" alt="1"/>
+            <img src="ballerina/2.JPG." alt="2"/>
+            <img src="ballerina/3.JPG" alt="3"/>
+            <img src="ballerina/4.JPG" alt="4"/>
+        </div>
+        
+    </section>
+
+</div>
+</body>
+</html>

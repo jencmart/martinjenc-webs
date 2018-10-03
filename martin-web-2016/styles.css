@@ -1,0 +1,175 @@
+
+/* ---------  BACKGROUND --------- */
+
+body {
+    background-color: #F0F0F0 ; 
+}
+
+
+
+/* ---------  WEB CONTAINER --------- */
+
+.container {
+    padding-top: 70px;
+    width: 100%;
+    margin: 0 auto;
+    display:flex;
+}
+
+
+
+
+
+
+
+/* --------- MAIN BODY --------- */
+
+.mainBody{
+    background-color: PINK ; 
+    margin:47px 0px 0px ;
+    flex-grow: 1;
+    width: 40em;
+    font-size:12px;
+    font-family: "Courier New";
+}
+
+#cf2 {
+    position:relative;
+    height:281px;
+    width:450px;
+    margin:0 auto;
+}
+#cf2 img {
+    position:absolute;
+    left:0;
+    max-height: 600px;
+    max-width: 600px;
+    opacity: 0;
+    z-index: 0;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+}
+
+#cf2 img.visible {
+    opacity: 1;
+    z-index: 1;
+}
+
+
+
+
+
+/* --------- HEADER NAVIGATION PANEL --------- */
+
+.navigation {
+    width: 200px;
+}
+
+
+
+/* --------- LOGO --------- */
+
+#cf {
+    padding-bottom: 40px;
+    
+}
+
+#cf img {
+  position:absolute;
+  left:30px;
+  -webkit-transition: opacity .5s ease-in-out;
+  -moz-transition: opacity .5s ease-in-out;
+  -o-transition: opacity .5s ease-in-out;
+  transition: opacity .5s ease-in-out;
+}
+
+#cf img.top:hover {
+  opacity:0;
+}
+
+
+
+/* --------- MAIN MENU --------- */
+
+.nav_menu {
+    list-style: none;
+    margin: 0;
+    padding-left: 20px;
+}
+
+.nav_menu li {
+    font-family: "Courier New" ;
+    font-size:90%;
+    margin: 5px 0 0 0;
+}
+
+.nav_menu a {
+    text-decoration: none;
+    color: #000000;
+    -webkit-transition: color .125s linear;
+    transition: color .125s linear;   
+}
+
+.nav_menu a:hover {
+    background: none;
+    color: #5da85b;
+    -webkit-transition: color .125s linear;
+    transition: color .125s linear;
+}
+
+.nav_menu a:active {
+    text-decoration:line-through;
+    background: none;
+    color: #000000;
+    -webkit-transition: color .125s linear;
+    transition: color .125s linear;
+}
+
+
+
+/* --------- SUB MENU --------- */
+
+.sub_nav_menu {
+    list-style: none;
+    margin: 15;
+    padding-left: 20px;  
+}
+
+.sub_nav_menu li {
+    font-family: "Courier New" ;
+    font-size:90%;
+    margin: 5px 0 0 0;
+}
+
+.sub_nav_menu a {
+    text-decoration: none;
+    color: #606060 ;
+    -webkit-transition: color .125s linear;
+    transition: color .125s linear;   
+}
+
+.sub_nav_menu a:hover {
+    text-decoration: line-through;
+    background: none;
+    color: #5da85b;
+    -webkit-transition: color .125s linear;
+    transition: color .125s linear;
+}
+
+.sub_nav_menu a:active {
+    text-decoration:line-through;
+    background: none;
+    color: #606060;
+    -webkit-transition: color .125s linear;
+    transition: color .125s linear;
+}
+
+.sub_nav_menu a.active {
+    text-decoration:line-through;
+    background: none;
+    color: #606060;
+    -webkit-transition: color .125s linear;
+    transition: color .125s linear;
+}

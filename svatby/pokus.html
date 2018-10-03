@@ -1,0 +1,42 @@
+<html>
+<head>
+<script type="text/javascript" src="http://www.kareinen.fi/js/instafeed.js"></script>
+  </head>
+    <body>
+
+
+<div id="instafeed"></div>
+
+
+
+</body>
+
+
+    <script>
+feed = new Instafeed({
+    get: 'user',
+    userId: 852121702,
+    accessToken: '852121702.1677ed0.7d2849617ae54b988a6905331ff4c999',
+    target: 'photo-feed',
+    sortBy: 'most-recent',
+    limit: 5,
+    template: '<li><a href="{{link}}" rel="external"><img src="{{image}}" /><span class="info"><small class="likes">{{likes}}</small><small class="date">{{model.created_time}}</small></span><span class="icon-instagram"></span><span class="black-stripe"></span></a></li>',
+    clientId: 'f91aab7e4ac145478358edb768110be2',
+    resolution: 'low_resolution',
+    filter: function(image) {
+        var date = new Date(image.created_time*1000),
+            hour = date.getHours(),
+            min = date.getMinutes(),
+            thetime = hour + 'h ' + (min ? min + 'min' : '');
+        image.created_time = thetime;
+        return true;
+    },
+    after: function() {
+        // disable button if no more results to load
+        if (!this.hasNext()) {
+            loadButton.attr('disabled', 'disabled').addClass('hidden');
+        }
+    }
+});
+
+</script>

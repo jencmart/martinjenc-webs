@@ -1,0 +1,60 @@
+
+/*GENERAL STYLING*/
+body{background-color: white; font-size:12px; font-family:Helvetica, Verdana, Arial, Helvetica, sans-serif; color:#333333;  }
+a {text-decoration: none; color:#5da85b;}
+div#warp {width: 950px; margin-top:0px; margin-bottom: 20px; margin-left: auto; margin-right: auto; padding: 0px;}
+
+/*HLAVNÍ MENU*/
+#navigace { border-bottom:1px solid #ccc; border-width:1px 0; list-style:none; text-align:center;  font-family:arial; font-weight: bold; font-size:15px;}
+#navigace li {display:inline;}
+#navigace a{display:inline-block; padding:10px; padding-top:10px; padding-bottom:2px;  color: #454545; border-bottom: 1px solid white;}
+#navigace a:hover{border-bottom: 1px solid #999999; color:#62a0e3;}
+#hlavicka h1 {text-align:center; margin:0px; padding-left:35px; margin-bottom: 15px; margin-top: 25px; font-size:25px; color:black; font-weight:normal; }
+
+/*UVODNI STRANKA*/
+#tabulka {text-align:center; border-left:9px solid white; border-collapse: collapse;  border-bottom: 30px solid white; }
+#tabulka td {border-right:40px solid white; padding-bottom: 13px}
+/*#tabulka p {font-size:13px; margin-top:5px; margin-bottom:0px; font-weight:bold; color: #444}*/
+.popis_menu {font-size:13px; margin-top:5px; margin-bottom:0px; font-weight:bold; color: #444}
+a:hover img.obrazek_menu{ opacity:0.9 }
+a:hover p.popis_menu  {color:#5da85b; }
+#tabulka p.popisek {font-style: italic; font-size:13px; margin-top:5px; color: #444; margin-bottom:0px; font-weight:normal;}
+#tabulka p.popisek:hover {text-decoration:underline; color:#5da85b}
+
+
+/*O MNĚ*/
+.levy {position: relative; width: 30%; float: left; padding-right:15px; padding-top:30px; }
+.pravy {position: relative; width: 65%; float: right; padding-right:15px; padding-top:30px; line-height: 1.9;}
+.dolni { padding-bottom:30px; clear:both; padding-top:10px; line-height: 1.9;}
+a.link:hover {text-decoration:underline}
+
+/*OSTATNÍ*/
+.sloupecek{position: relative; width: 23%; float: left; padding-right:15px; padding-top:30px; }
+.linka {padding-bottom:30px; border-bottom: 1px solid #ccc; clear:both;}
+
+
+/*PATIČKA*/
+#paticka {border-top:1px solid #ccc;text-align: center	; margin:0px; padding:0px; padding-top:10px; clear:both;}
+
+.text { padding-top:30px; clear:both;}
+
+/*
+#web{position:relative; font-weight: bold; top:8px; font-family:arial; font-size:13px;  color: #ccc; text-decoration: none; float:left; padding-left:33px;}
+		
+#obsah {position: relative; width: 30%; float: left; border-right: 1px solid #444; padding-right:15px}
+
+#obsah h2 {font-size:27px; font-weight: normal;  margin-bottom:9px; margin-top:9px;}
+		  
+#datum{padding: left; border-bottom: 1px solid #444; padding-top:9px; padding-bottom:5px; color: #444; font-size:15px; margin-bottom:15px;}
+
+
+
+.text {display: block; font-size:12px; line-height:1.5; text-align: center; padding: 2px;}
+
+
+.nadpis_navigace {border-bottom: 1px solid #444; padding-top:9px; padding-bottom:5px; color: #444; font-size:15px; margin-bottom:15px;}
+.nadpis_menu {border-bottom: 1px solid #444; padding-bottom:5px; color: #444; font-size:15px;}	
+.tlacitko_navigace {border-bottom: 1px solid #444; margin-left:23px; font-size:13px; line-height:1.9;}	
+.tlacitko_navigace a {color:white; margin-left:10px; text-decoration:none; }		
+.item {margin: 0 0 2em 0}
+*/

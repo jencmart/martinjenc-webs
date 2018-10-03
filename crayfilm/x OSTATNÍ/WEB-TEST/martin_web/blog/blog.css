@@ -1,0 +1,43 @@
+
+/************GENERAL STYLING***************/
+body{background-color: white; font-size:12px; font-family:Helvetica, Verdana, Arial, Helvetica, sans-serif; color:#333333;  }
+
+a {text-decoration: none;}
+
+div#warp {width: 950px; margin-top:0px; margin-bottom: 50px; margin-left: auto; margin-right: auto; padding: 0px;}
+
+
+
+/*HLAVNÍ MENU*/
+#navigace { border-bottom:1px solid #ccc; border-width:1px 0; list-style:none; text-align:center;  font-family:arial; font-weight: bold; font-size:15px;}
+#navigace li {display:inline;}
+#navigace a{display:inline-block; padding:10px; padding-top:10px; padding-bottom:2px;  color: #454545; border-bottom: 1px solid white;}
+#navigace a:hover{border-bottom: 1px solid #999999; color:#62a0e3;}
+#hlavicka h1 {text-align:center; margin:0px; padding-left:35px; margin-bottom: 15px; margin-top: 25px; font-size:25px; color:black; font-weight:normal; }
+
+
+
+#logo {text-decoration: none;}
+#logo h1 { font-family:arial; font-weight: bold; font-size:23px;  color: black; float:left; margin: auto;}
+
+#web{position:relative; top:8px; font-weight: bold;  font-family:arial; font-size:13px;  color: #ccc; text-decoration: none; float:left;}
+#web:hover{background-color:yellow; color:black;}		
+#head_image{text-align:center; padding-bottom: 15px; padding-top: 10px;}	
+
+#obsah {position: relative; width: 80%; float: left; border-right: 1px solid #ccc;; padding-right:15px}
+
+#obsah h2 {font-size:27px; font-weight: normal;  margin-bottom:9px; margin-top:9px;}
+		  
+#datum{padding: left; border-bottom: 1px solid #ccc; padding-top:9px; padding-bottom:5px; color: #444; font-size:15px; margin-bottom:15px;}
+
+#sidebar { float:right; }
+
+.text {display: block; font-size:12px; line-height:1.5; text-align: center; padding: 2px; border-bottom:1px solid #ccc;}
+
+/*NAVIGACE a MENU*/
+.nadpis_navigace {border-bottom: 1px solid #ccc; padding-top:9px; padding-bottom:5px; color: #444; font-size:15px; margin-bottom:15px;}
+.nadpis_menu {border-bottom: 1px solid #ccc; padding-bottom:5px; color: #444; font-size:15px;}	
+.tlacitko_navigace {border-bottom: 1px solid #ccc; margin-left:23px; font-size:13px; line-height:1.9;}	
+.tlacitko_navigace a {color:black; margin-left:10px; text-decoration:none; }	
+.tlacitko_navigace:hover{background-color:#101010;}		
+.item {margin: 0 0 2em 0}

@@ -1,0 +1,77 @@
+
+/*GENERAL STYLING*/
+
+a {text-decoration: none; color:#62a0e3;}
+a:hover {text-decoration: underline;}
+body{background-color: white; font-size:12px; font-family:Helvetica, Verdana, Arial, Helvetica, sans-serif; color:#333333;  overflow-y: scroll}
+
+
+/* HLAVNÍ MENU */
+#navigation a.link { font-family:arial; color: #454545; text-decoration: none; letter-spacing:0.25em; line-height:1.5;}		
+#navigation a.link:hover {border-bottom: 1px solid #999999; color:black;}
+
+/* O MNĚ */
+.mezera {padding-bottom:20px; clear:both;}
+.dolni { padding-bottom:30px; clear:both; padding-top:10px; line-height: 1.9;}
+
+/* POVÍDKY */
+.popis_menu {font-size:13px; margin-top:5px; margin-bottom:30px; font-weight:bold; color: #444; text-decoration:none;}
+a:hover img.obrazek_menu{ opacity:0.9; text-decoration:none; }
+a:hover .popis_menu  {color:#62a0e3; text-decoration:none; }
+
+/* PISNOVY TEXT */
+ 
+ 
+.pisnovy_text {line-height: 1.9 }
+
+
+/* PATIČKA */
+
+
+
+/*
+.a {text-decoration:none; color: black;}
+
+.nadpis{color:#999999;
+		font-weight:normal;
+		font-family:Georgia, Times, serif; 
+		font-size:27px;
+		text-decoration: none;
+		line-height:1.4;
+		letter-spacing:0.25em;
+		line-height:1.4;
+		letter-spacing:0.25em;}			
+
+.popis{	color:#555;font-family: Georgia, Times, serif; text-align: justify; margin: 0 auto;width: 40em;}
+
+.contact{ position:absolute;  left:330px; line-height: 2;	color:#555;font-family: Georgia, Times, serif; text-align: justify; margin: 0 auto;width: 40em; font-size:12px;}
+
+
+.obrazek_menu {
+border-width: 3px; 
+padding: center;
+border-style:solid;
+border-color: transparent; }
+
+a:hover img.obrazek_menu{ 
+padding:2px;
+border:1px solid #999999;
+background-color:transparent;}
+
+.popis_menu {
+		text-align: center;
+		position:relative;
+		top: 10px;
+		color:#555;
+		font-family: Georgia, Times, serif;
+		}
+
+a:hover div.popis_menu  { 
+color: #999999; }
+
+.hlavicka{position:absolute; top: 50px;}
+.prvni{position:absolute;  left:350px; z-index: 3;}
+.druhy{position:absolute;  left:750px; z-index: 2;}
+
+
+*/	

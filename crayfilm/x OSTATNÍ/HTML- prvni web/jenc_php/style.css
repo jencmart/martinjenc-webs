@@ -1,0 +1,108 @@
+/* takhe se pise komentar */
+#navigation {
+
+}
+#navigation a  {
+}
+
+
+
+#navigation a.link {font-family:arial; 
+				  font-size:17px; 
+				  color:white;
+				  text-decoration: none;
+				  line-height:1.4;
+				  letter-spacing:0.25em;}
+				
+#navigation a.link:hover {font-family:arial; 
+						font-size:17px; 
+						-moz-opacity:0.4;
+			            -khtml-opacity: 0.4;
+			            opacity: 0.4; 
+						text-decoration: none; 
+						line-height:1.4;
+						letter-spacing:0.25em;
+}
+
+
+.nadpis {
+			color:rgb(190,190,190);
+			font-family:arial;
+}
+						
+.popisvid{	
+			color:rgb(103,103,103);
+			font-family:arial;
+			text-align: justify;
+			margin: 0 auto;
+			width: 40em;
+}
+
+.facebook {
+			position:relative;
+			top:-5px;
+			left:35px;
+			text-decoration: none;
+}
+.facebook:hover {
+			text-decoration: none;
+			-moz-opacity:0.4;
+			-khtml-opacity: 0.4;
+			opacity: 0.4;
+}
+
+
+
+.vimeo {
+			position:relative;
+			top:-5px;
+			left:45px;
+			text-decoration: none;
+}
+.vimeo:hover {
+			text-decoration: none;
+			-moz-opacity:0.4;
+			-khtml-opacity: 0.4;
+			opacity: 0.4;
+}
+
+
+
+.twitter {
+			position:relative;
+			top:-5px;
+			left:55px;
+			text-decoration: none;
+}
+.twitter:hover {
+			text-decoration: none;
+			-moz-opacity:0.4;
+			-khtml-opacity: 0.4;
+			opacity: 0.4;
+}
+
+#fakeiframe{
+	position:absolute;
+	top:0;
+	left:0;
+    	width: 20%;
+    	height: 600px;
+    	overflow: disable;
+   }
+
+#fakeiframe2{
+	position:absolute;
+	top:0;
+	left:20%;
+    width: 70%;
+    height: auto;
+    overflow: disable;
+   }
+   
+#shoes{
+	position:absolute;
+	bottom:fakeiframe2.height;
+    width: 940px;
+    height: 20px;
+    overflow: disable;
+   }

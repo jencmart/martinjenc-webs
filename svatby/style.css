@@ -1,0 +1,73 @@
+#pes {position:fixed;}
+
+.menu {
+    position: fixed;
+    
+    
+    
+}
+
+/* --------- MAIN MENU --------- */
+
+
+#page-content {
+    z-index:4;
+}
+.nav_menu {
+    position: absolute;
+    right:50px;
+    top: 20px   ;
+    list-style: none;
+    margin: 0;
+    padding: 40px;
+    padding-right: 50px;
+   
+    
+}
+
+.nav_menu li {
+
+    margin: 5px 0 0 0;
+}
+
+.nav_menu a {
+    text-decoration: none;
+  
+    -webkit-transition: color .125s linear;
+    transition: color .125s linear;   
+}
+
+.nav_menu a:hover {
+    background: none;
+    color: #5da85b;
+    -webkit-transition: color .125s linear;
+    transition: color .125s linear;
+}
+
+.nav_menu a:active {
+    text-decoration:line-through;
+    background: none;
+
+    -webkit-transition: color .125s linear;
+    transition: color .125s linear;
+}
+
+
+.nav_menu a.active {
+    text-decoration:line-through;
+    background: none;
+    color: #5da85b;
+    -webkit-transition: color .125s linear;
+    transition: color .125s linear;
+}
+
+
+
+
+
+
+#cycler{position:relative;}
+#cycler img{position:absolute;z-index:1}
+#cycler img.active{z-index:3}
+
+/* -------------- OBRAZKY PROLINAČKA ------------ */

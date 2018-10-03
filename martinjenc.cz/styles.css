@@ -1,0 +1,267 @@
+
+.hidden{
+    opacity:0;
+}
+.visible{
+    opacity:1;
+}
+
+
+
+/* ---------  BACKGROUND --------- */
+
+body {
+    background-color: #dfdfdfd ; 
+   
+}
+
+
+
+/* ---------  WEB CONTAINER --------- */
+
+.container {
+    margin-top: 80px;
+    margin-left: 20px;
+
+    
+    display:flex;
+    flex-wrap: wrap;
+}
+
+
+/* --------- MAIN BODY --------- */
+
+.mainBody{
+    margin-left: 200px ;
+    flex-grow: 1;
+    font-size:12px;
+    font-family: "Courier New";
+}
+
+#cf2 {
+    position:relative;
+    height:281px;
+    width:450px;
+    margin:0 auto;
+}
+#cf2 img {
+    position:absolute;
+    left:0;
+    max-height: 600px;
+    max-width: 600px;
+    opacity: 0;
+    z-index: 0;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+}
+
+#cf2 img.visible {
+    opacity: 1;
+    z-index: 1;
+}
+
+.imagewrapper {
+    width: 30px;
+}
+
+.imageWrapper img {
+    display:block;
+    width: 720px;
+    
+ margin-bottom: 50px;
+}
+
+
+.printDiv {
+    width: 720px;
+
+}
+
+/* --------- HEADER NAVIGATION PANEL --------- */
+
+.navigation {
+    position: fixed;
+    width: 250px;
+}
+
+
+
+/* --------- LOGO --------- */
+
+#cf {
+    position: relative;
+    margin-bottom: 40px;
+    
+}
+
+#cf img {
+  position:absolute;
+  -webkit-transition: opacity .5s ease-in-out;
+  -moz-transition: opacity .5s ease-in-out;
+  -o-transition: opacity .5s ease-in-out;
+  transition: opacity .5s ease-in-out;
+}
+
+#cf img.top:hover {
+  opacity:0;
+}
+
+
+
+/* --------- MAIN MENU --------- */
+
+.nav_menu {
+    list-style: none;
+    margin: 0;
+    padding-left: 0px;
+}
+
+.nav_menu li {
+    font-family: "Courier New" ;
+
+
+    transform:scale(1,1.17); /* W3C */
+    -webkit-transform:scale(1,1.17); /* Safari and Chrome */
+    -moz-transform:scale(1,1.17); /* Firefox */
+    -ms-transform:scale(1,1.17); /* IE 9 */
+    -o-transform:scale(1,1.17); /* Opera */
+    font-size:70%;
+    margin: 1px 0 0 0;
+}
+
+.nav_menu a {
+    text-decoration: none;
+    color: #000000;
+    -webkit-transition: color .125s linear;
+    transition: color .125s linear;   
+}
+
+.nav_menu a:hover {
+    background: none;
+    color: #FFD1DC;
+    -webkit-transition: color .125s linear;
+    transition: color .125s linear;
+}
+
+.nav_menu a:active {
+    text-decoration:line-through;
+    background: none;
+    color: #000000;
+    -webkit-transition: color .125s linear;
+    transition: color .125s linear;
+}
+
+
+.nav_menu a.active {
+    text-decoration:line-through;
+    background: none;
+    color: #FFD1DC;
+    -webkit-transition: color .125s linear;
+    transition: color .125s linear;
+}
+
+/* --------- SUB MENU --------- */
+
+.sub_nav_menu {
+    list-style: none;
+    margin-top: 15;
+    padding-left: 0px;  
+}
+
+.sub_nav_menu li {
+    font-family: "Courier New" ;
+    font-size:80%;
+    margin: 5px 0 0 0;
+}
+
+.sub_nav_menu a {
+    text-decoration: none;
+    color: #606060 ;
+    -webkit-transition: color .125s linear;
+    transition: color .125s linear;   
+}
+
+.sub_nav_menu a:hover {
+    text-decoration: underline;
+    background: none;
+    color: #707070;
+    -webkit-transition: color .125s linear;
+    transition: color .125s linear;
+}
+
+.sub_nav_menu a:active {
+    text-decoration:line-through;
+    background: none;
+    color: #606060;
+    -webkit-transition: color .125s linear;
+    transition: color .125s linear;
+}
+
+.sub_nav_menu a.active {
+    text-decoration:line-through;
+    background: none;
+    color: #606060;
+    -webkit-transition: color .125s linear;
+    transition: color .125s linear;
+}
+
+
+@media screen and (max-width : 800px){
+    .mainBody{ 
+    margin: 0 auto;
+}
+
+    .container {
+        width: 100%;
+        margin: 0 auto; 
+        display:flex;
+        flex-wrap: wrap;
+        
+    }
+
+    .navigation {
+        position: relative;
+        margin: 0 auto; 
+        
+        width: 250px;
+    }
+    
+    #cf2 {
+        position:relative;
+        margin: auto;
+    }
+    .mainBody{
+    margin: 0 auto;
+    }
+    
+    #cf {
+        margin-left: 50px;
+        margin-bottom: 40px;
+    }
+    
+    #cf img {
+        display:block;
+        -webkit-transition: opacity .5s ease-in-out;
+        -moz-transition: opacity .5s ease-in-out;
+        -o-transition: opacity .5s ease-in-out;
+        transition: opacity .5s ease-in-out;
+    }
+    
+.nav_menu {
+    display:block;
+    list-style: none;
+}
+    
+.nav_menu li {
+    text-align:center;
+    list-style: none;
+}
+
+    .sub_nav_menu li {
+        text-align:center;
+    }
+    
+
+} 

@@ -1,0 +1,28 @@
+
+
+/* HLAVNÍ MENU */
+#okraj{width:20%; height: 450px; border-right:1px solid #ccc; position:fixed; float:left;}
+#hlavicka h1 {width:200px; height: auto; margin:0px; float: left; position:fixed; padding-left:3%; margin-top:50px;
+			text-decoration:none; font-size:25px; color:black; font-weight:normal; z-index:1;} 
+#navigation {width:200px; height: auto; position:fixed; float:left; padding: 100px 3% 1%;}
+#navigation a.link { font-size:17px; }
+
+/*O MNĚ*/
+.obsah{position:relative; float:left; margin-top: 50px; margin-left: 23%; width:70%;}
+.levy {position: relative; width: 25%; float: left; padding-right:15px;}
+.pravy {position: relative; width: 70%; float: left; padding-right:15px; line-height: 1.9;}
+
+/*  POVIDKY */
+.obrazek_menu{ width: 783px; }
+.seznam{position:relative; float:left; margin-top: 50px; margin-left: 23%; width:783px; text-align:center}
+
+/* KNIHY */
+.kniha{position:relative; float:left; margin-top: 50px; margin-left: 23%; width:783px; text-align:center; line-height: 1.9;}
+
+/* PISNOVE TEXTY */
+.pisnove_texty{position:relative; float:left; margin-top: 50px; margin-left: 23%; width:50px;}
+.pisnove_sloupky{position:relative; float:left; margin-top: 50px; margin-left:15%; width:50px;}
+
+.pisnovy_text {position:relative; float:left; margin-top: 50px; margin-left: 50%; width:auto; text-align:center;}
+
+#paticka {border-top:1px solid #ccc;text-align: center	; margin-left:100px; margin-right:100px; padding:0px; padding-top:10px; clear:both;}

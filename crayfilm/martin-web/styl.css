@@ -1,0 +1,86 @@
+
+/*GENERAL STYLING*/
+body{ background-color: #F5F2EB; margin:0; padding:0;
+ font-size:12px; font-family:Helvetica, Verdana, Arial, Helvetica, sans-serif; /* color:#333333;*/ color:#443E30; margin-right: 0 !important;}
+a {text-decoration: none; color:#5da85b;}
+div#warp {box-shadow:  0 -3px 6px rgba(0,0,0,.1); background-color: #FBFAF6 ;
+	width: 950px; margin-top:0px;  margin-left: auto; margin-right: auto; padding-bottom:  0; padding: 1 35px;}
+
+
+/*HLAVNÍ MENU*/
+#hlavicka h1 {text-align:center; margin:0px; padding-left:35px; margin-bottom: 15px; margin-top: 25px; font-size:25px; color:black; font-weight:normal; }
+#navigace { border-bottom:1px solid #ccc; border-width:1px 0; list-style:none; text-align:center;  font-family:arial; font-weight: bold; font-size:15px;}
+#navigace li {display:inline;}
+#navigace a{display:inline-block; padding:10px; padding-top:10px; padding-bottom:2px;  color: #454545; border-bottom: 1px solid rgba(0,0,0,.0);}
+#navigace a:hover{border-bottom: 1px solid #999999; color:#5da85b /*color:#62a0e3;*/}
+#otevreno {color:#5da85b !important;}
+
+/*UVODNI STRANKA*/
+#tabulka {text-align:center; border-left:9px solid rgba(0,0,0,.0); border-collapse: collapse;  border-bottom: 30px solid rgba(0,0,0,.0); }
+#tabulka td {border-right:40px solid rgba(0,0,0,.0); padding-bottom: 13px}
+/*#tabulka p {font-size:13px; margin-top:5px; margin-bottom:0px; font-weight:bold; color: #444}*/
+.popis_menu {font-size:13px; margin-top:5px; margin-bottom:0px; font-weight:bold; color: #444}
+a:hover img.obrazek_menu{ opacity:0.9 }
+a:hover p.popis_menu  {color:#5da85b; }
+#tabulka p.popisek {font-style: italic; font-size:13px; margin-top:5px; color: #444; margin-bottom:0px; font-weight:normal;}
+#tabulka p.popisek:hover {text-decoration:underline; color:#5da85b}
+
+/* OTEVRENY FILM*/
+.vycistit {clear: both;}
+.film_work {text-align:center; padding-top:20px; }
+.film_work h1 { font-family:arial; font-weight: bold; font-size:15px; margin:0; padding:0; padding-bottom: 20px; }
+.film_work h3 { font-family:arial; font-weight: bold; font-size:15px; margin:0; padding:0; padding-bottom: 5px; padding-top:10px; }
+.titulky { border-top: 1px solid #ccc; margin-top: 10px; position: relative; 
+		  float: left; width: 23%; margin-right:2%; text-align:left; line-height: 1.9;}
+.anotace { border-top: 1px solid #ccc; margin-top: 10px; position: relative; float: left; width: 46%;  
+		 text-align: left; margin-left: 2%; margin-right: 2%; line-height: 1.9;}
+.anotace ul {margin-left: 2%; margin-right: 2%; padding-left: 2%; padding: 0px;}
+.obrazky { border-top: 1px solid #ccc; margin-top: 10px; position: relative; 
+		  float: left; width: 23%; margin-left:2%; text-align:left; line-height: 1.9;}
+		  
+		  
+ /* FOTKY */
+.fotky_work { padding-top:20px; width: 95%; margin-left: 5%;}
+.fotky_work p {padding-bottom: 3px; margin:0;}
+.fotky_work h1 { text-align: center; font-family:arial; font-weight: bold; font-size:15px; margin:0; padding:0; padding-bottom: 20px; }
+.fotky_work h3 { font-family:arial; font-weight: bold; font-size:15px; margin:0; padding:0; padding-bottom: 5px; padding-top:10px; }
+.fotky {width: 95%; margin-bottom: 50px; border: 1px solid black;}
+.scrollup{ background: url('graphic/bok.png') no-repeat; width:50px; height:50px; opacity:0.7; position:fixed;
+			display:none; text-indent:-9999px;  bottom:8px; right:10%; }
+
+/*O MNĚ*/
+.levy {position: relative; width: 30%; float: left; padding-right:15px; padding-top:30px; }
+.pravy {position: relative; width: 65%; float: right; padding-right:15px; padding-top:30px; line-height: 1.9;}
+.dolni { padding-bottom:30px; clear:both; padding-top:10px; line-height: 1.9;}
+a.link:hover {text-decoration:underline}
+
+/*OSTATNÍ*/
+.sloupecek{position: relative; width: 23%; float: left; padding-right:15px; padding-top:30px; }
+.linka {padding-bottom:30px; border-bottom: 1px solid #ccc; clear:both;}
+
+
+/*PATIČKA*/
+#paticka {border-top:1px solid #ccc;text-align: center	; width: 100%; margin:0px; padding:0px; padding-top:10px; clear:both;}
+
+.text { padding-top:30px; clear:both;}
+
+/*
+#web{position:relative; font-weight: bold; top:8px; font-family:arial; font-size:13px;  color: #ccc; text-decoration: none; float:left; padding-left:33px;}
+		
+#obsah {position: relative; width: 30%; float: left; border-right: 1px solid #444; padding-right:15px}
+
+#obsah h2 {font-size:27px; font-weight: normal;  margin-bottom:9px; margin-top:9px;}
+		  
+#datum{padding: left; border-bottom: 1px solid #444; padding-top:9px; padding-bottom:5px; color: #444; font-size:15px; margin-bottom:15px;}
+
+
+
+.text {display: block; font-size:12px; line-height:1.5; text-align: center; padding: 2px;}
+
+
+.nadpis_navigace {border-bottom: 1px solid #444; padding-top:9px; padding-bottom:5px; color: #444; font-size:15px; margin-bottom:15px;}
+.nadpis_menu {border-bottom: 1px solid #444; padding-bottom:5px; color: #444; font-size:15px;}	
+.tlacitko_navigace {border-bottom: 1px solid #444; margin-left:23px; font-size:13px; line-height:1.9;}	
+.tlacitko_navigace a {color:white; margin-left:10px; text-decoration:none; }		
+.item {margin: 0 0 2em 0}
+*/
